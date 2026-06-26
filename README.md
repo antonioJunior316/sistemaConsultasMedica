@@ -136,3 +136,31 @@ Os dados são armazenados em memória utilizando listas (ArrayList), sem necessi
 
 
 ![Arquitetura](images/diagrama.png)
+
+
+## Como Executar o Projeto
+
+### Pré-requisitos
+
+* Java JDK 17 (ou superior) instalado.
+* Apache Maven instalado.
+
+### Clonar o repositório
+
+```bash
+git clone https://github.com/antonioJunior316/sistemaConsultasMedica.git
+```
+
+```bash
+cd sistemaConsultasMedica
+```
+
+### Executar o projeto
+
+No terminal, dentro da pasta do projeto, execute o comando:
+
+```bash
+mvn exec:java -Dexec.mainClass="org.example.app.Main"
+```
+
+Após a execução, o sistema será iniciado no terminal, exibindo o menu principal com as funcionalidades disponíveis, como cadastro de pacientes e médicos, agendamento, listagem, reagendamento e cancelamento de consultas.
